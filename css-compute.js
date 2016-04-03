@@ -74,5 +74,6 @@ var cssComputeResults = {};
   cssComputeResults.asString = JSON.stringify(computedStyles);
 })();
 
-console.log(cssComputeResults.asObject)
-console.log(cssComputeResults.asString)
+console.log('Computed Styles:', cssComputeResults.asObject);
+console.log('Computed Almost Stylesheet:', cssComputeResults.asString);
+console.log('Computed Styles Length:', cssComputeResults.asString.length);
